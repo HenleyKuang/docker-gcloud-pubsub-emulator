@@ -14,3 +14,7 @@ docker-compose YAML Example
         - PUBSUB_PROJECT_ID=test-project
         - PUBSUB_EMULATOR_HOST=localhost
         - PUBSUB_EMULATOR_PORT=8080
+
+.. code-block:: bash
+
+    docker-compose up --build
